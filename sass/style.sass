@@ -1,0 +1,495 @@
+@import 'normalize.scss'
+@import 'reset.scss'
+
+$color-red: #FD0B5B
+$color-gray: #D9D9D9
+$color-black: #292929
+$color-blue: #2B3262
+$color-bg: #010012
+
+*
+    box-sizing: border-box
+
+@font-face
+    font-family: 'Montserrat', Sans-serif
+    font-display: swap
+    src: url('../fonts/Montserrat-Regular.ttf')
+    font-weight: normal
+    font-style: normal
+
+@font-face
+    font-family: 'Montserrat', Sans-serif
+    font-display: swap
+    src: url('../fonts/Montserrat-SemiBold.ttf')
+    font-weight: bold
+    font-style: normal
+
+@font-face
+    font-family: 'Rubik', Sans-serif
+    font-display: swap
+    src: url('../fonts/Rubik-Regular.ttf')
+    font-weight: normal
+    font-style: normal
+
+html
+    scroll-behavior: smooth
+    font-family: 'Montserrat'
+    font-weight: normal
+    line-height: 1.4
+
+h1, h2, h3, h4, h5,h6, span
+    line-height: 1
+
+img
+    max-width: 100%
+    height: auto
+
+/* Первая секция */
+
+.container
+    max-width: 1140px
+    margin: 0 auto
+    padding: 0 10px
+
+.main-section
+    position: relative
+    height: 840px
+    background-image: url(../img/main-section-bg.jpeg)
+    background-position: center center
+    background-repeat: no-repeat
+    background-size: cover
+    padding-top: 25px
+    overflow: hidden
+    &__header
+        img
+            width: 90%
+            height: auto
+    &__nav-container
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__content-container
+        display: flex
+        height: 100%
+        align-items: center
+
+/* Навигация */
+.nav-menu
+    &__list
+        display: flex
+    &__list-item
+        margin-right: 35px
+        font-weight: bold
+        font-size: 14px
+        a
+            text-decoration: none
+            color: #fff
+            position: relative
+            cursor: pointer
+            &:after
+                content: ""
+                display: block
+                position: absolute
+                right: 0
+                bottom: -5px
+                width: 0
+                height: 3px
+                background-color: $color-red
+                transition: width 0.5s
+            &:hover:after
+                content: ""
+                width: 100%
+                display: block
+                position: absolute
+                left: 0
+                bottom: -5px
+                height: 3px
+                background-color: $color-red
+                transition: width 0.5s
+
+.btn-phone
+    &__list-item
+        margin-right: 25px
+        font-weight: bold
+        font-size: 18px
+        a
+            text-decoration: none
+            color: #fff
+        a:hover
+            color: $color-red
+            transition: .3s linear
+
+/* Содержимое главного экрана */
+
+.left-wrapper
+    width: 50%
+    margin-top: -80px
+    &__title
+        margin-bottom: 12px
+    &__description
+        margin-bottom: 50px
+    &__text-title
+        margin-bottom: 15px
+    &__list-adress
+        margin-bottom: 40px
+        img
+            width: 20px
+            height: 20px
+            margin-bottom: -5px
+
+.title
+    font-weight: bold
+    font-size: 49px
+    line-height: 1
+    color: #fff
+
+.description
+    font-size: 34px
+    color: #fff
+    span
+        color: $color-red
+        text-decoration: underline
+
+.text-title
+    color: #fff
+    font-weight: 500
+    font-size: 22px
+
+.list-adress
+    color: #fff
+    font-size: 16px
+    &__main-list:not(:last-child)
+
+        padding-bottom: 10px
+
+.btn
+    font-size: 16px
+    color: #fff
+    background: linear-gradient(to left, #7300CE, #7300CE, #EE164D, #EE164D)
+    text-decoration: none
+    padding: 20px 30px
+    border-radius: 90px
+    background-size: 200%
+    transition: .5s
+    border: solid 2px #ffffff
+    cursor: pointer
+    &:hover
+        background-position: right
+        color: #fff
+
+.right-wrapper
+    img
+        position: absolute
+        bottom: 0
+        left: 51%
+        width: 500px
+        height: auto
+
+.second-section
+    max-width: 86%
+    margin-top: -80px
+    margin-left: auto
+    margin-right: auto
+    position: relative
+    z-index: 2
+    &__container
+        display: flex
+        background-image: url(../img/blok2_1bg.png)
+        background-position: center center
+        background-repeat: no-repeat
+        background-size: cover
+    &__column
+        display: flex
+        flex-wrap: wrap
+        width: 100%
+        height: 280px
+        background-image: url(../img/blok2_bg1.png)
+        background-position: center center
+        background-repeat: no-repeat
+        background-size: cover
+        text-align: center
+        justify-content: center
+        align-content: center
+    &__title
+        font-size: 14px
+        line-height: 1.2
+        color: #fff
+        span
+            color: $color-red
+
+/* Третья секция */
+
+.third-section
+    margin: -200px 0 auto
+    position: relative
+    background-color: $color-bg
+    background-image: url(../img/third-section-bg.png)
+    background-position: bottom center
+    background-repeat: no-repeat
+    background-size: cover
+    &__container
+        padding-top: 350px
+        display: flex
+        padding-bottom: 70px
+    &__column
+        width: 50%
+        padding-bottom: 120px
+    &__title
+        font-size: 44px
+        margin-bottom: 70px
+        span
+            color: $color-red
+            text-decoration: underline
+    &__text
+        margin-bottom: 45px
+
+.decor
+    position: relative
+    &__item
+        font-size: 350px
+        color: #FFCDCD69
+        line-height: 1
+        font-family: 'Rubik', sans-serif
+        font-weight: 400
+    &__second-item
+        font-size: 20px
+        color: #fff
+        line-height: 1
+        position: absolute
+        left: 355px
+        top: 95px
+        z-index: 1
+        span
+            font-size: 40px
+    &__car
+        position: absolute
+        width: 850px
+        left: -15px
+        top: 155px
+        z-index: 2
+
+.text
+    font-size: 26px
+    color: #fff
+    line-height: 1.2
+    span
+        color: $color-red
+
+.column-info
+    display: flex
+    flex-wrap: wrap
+    justify-content: flex-end
+    align-content: flex-start
+    &__box
+        display: flex
+        flex-wrap: wrap
+        align-content: center
+        color: #fff
+        font-size: 20px
+        width: 274px
+        height: 170px
+        background: $color-gray
+        margin: 0
+        padding: 15px
+        &_black
+            background: $color-black
+        &_blue
+            background: $color-blue
+        &_red
+            background: $color-red
+    &__title
+        font-size: 14px
+        line-height: 1.2
+        font-weight: bold
+        color: $color-black
+        margin-bottom: 22px
+        &_white
+            color: #fff
+    &__text
+        font-size: 14px
+        font-weight: normal
+        color: $color-black
+        &_white
+            color: #fff
+
+.fourth-section
+    background-color: $color-bg
+    background-image: url(../img/third-section-bg.png)
+    background-position: center center
+    background-repeat: no-repeat
+    background-size: cover
+    padding-bottom: 100px
+    &__text
+        text-align: center
+        padding-bottom: 50px
+        font-weight: bold
+    &__tab
+        margin-bottom: 70px
+    &__footer
+        display: flex
+        justify-content: center
+    &__column-l
+        width: 50%
+        text-align: right
+        margin-right: 50px
+    &__column-r
+        width: 50%
+        display: flex
+        align-items: center
+        flex-wrap: wrap
+        p
+            display: inline-block
+            width: 100%
+            color: #fff
+            font-size: 16px
+            line-height: 1.2
+        a
+            color: #fff
+            font-size: 26px
+            text-decoration: underline
+        a:hover
+            color: $color-red
+            transition: .3s linear
+
+/* Таб бутстрап */
+.nav-pills .nav-link
+    border-radius: 90px
+    padding: 16px 36px
+    font-family: 'Montserrat', Sans-serif
+    font-weight: bold
+    color: #2B3262
+    background-color: #fff
+    border: solid 3px
+    border-color: #2B3262
+    margin: 0px 30px 50px 30px
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link
+    color: #fff
+    background-color: #2B3262
+    border-color: #fff
+
+.tab-container
+    width: 1050px
+    margin: 0 auto
+    height: 500px
+    background-image: url(../img/meh01.webp)
+    background-position: bottom center
+    background-repeat: no-repeat
+    background-size: contain
+    padding: 30px
+    display: flex
+    &__column-l
+        width: 50%
+    &__column-r
+        width: 50%
+    &__title
+        color: #fff
+        font-size: 22px
+        line-height: 1.2
+        margin-bottom: 10px
+        span
+            font-weight: bold
+    &__title-list
+        color: #fff
+        font-weight: bold
+        font-size: 18px
+        line-height: 1
+        margin-bottom: 15px
+    &__text
+        color: #fff
+        font-weight: bold
+        font-size: 20px
+        line-height: 1.2
+    &__list-box
+        color: #fff
+        font-size: 16px
+        line-height: 1.2
+        li
+            margin-bottom: 10px
+
+.tab-container-r
+    width: 1050px
+    margin: 0 auto
+    height: 500px
+    background-image: url(../img/avto-bg.png)
+    background-position: bottom center
+    background-repeat: no-repeat
+    background-size: contain
+    padding: 30px
+    display: flex
+    &__column-l
+        width: 50%
+    &__column-r
+        width: 50%
+    &__title
+        color: #fff
+        font-size: 22px
+        line-height: 1.2
+        margin-bottom: 10px
+        span
+            font-weight: bold
+    &__title-list
+        color: #fff
+        font-weight: bold
+        font-size: 18px
+        line-height: 1
+        margin-bottom: 15px
+    &__text
+        color: #fff
+        font-weight: bold
+        font-size: 20px
+        line-height: 1.2
+    &__list-box
+        color: #fff
+        font-size: 16px
+        line-height: 1.2
+        li
+            margin-bottom: 10px
+
+.infobox
+    display: flex
+    padding: 46px 80px 46px 20px
+    background-image: url(../img/glass.png)
+    background-position: -30px
+    background-repeat: no-repeat
+    background-size: cover
+    &__column-l
+        width: 50%
+        display: flex
+        align-content: center
+        flex-wrap: wrap
+        justify-content: center
+    &__text
+        color: #fff
+        font-size: 13px
+        font-weight: 500
+        line-height: 14px
+    &__column-r
+        width: 50%
+        display: flex
+        align-content: center
+        flex-wrap: wrap
+        justify-content: center
+    &__btn
+        padding: 12px 20px
+
+/* Пятая секция */
+
+.fifth-section
+    background-color: $color-bg
+    &__container
+        display: flex
+    &__column-l
+    &__column-r
+
+.column-l
+    &__title
+    &__text
+    &__description
+    &__text-decor
+    &__decor
+
+.column-r
+    &__phone
+    &__play-bg
+    &__play
