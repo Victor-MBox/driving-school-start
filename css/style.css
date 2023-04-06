@@ -1145,12 +1145,136 @@ img {
 /* Пятая секция */
 /* line 478, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .fifth-section {
-  background-color: #010012;
+  background-image: url(../img/fifth_section-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1000px;
 }
 
-/* line 480, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 484, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .fifth-section__container {
   display: flex;
+}
+
+/* line 486, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.fifth-section__column-l {
+  position: relative;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+/* line 492, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.fifth-section__column-r {
+  position: relative;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  padding-left: 50px;
+}
+
+/* line 501, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.column-l__title {
+  font-size: 46px;
+  font-weight: bolt;
+  margin-bottom: 60px;
+}
+
+/* line 505, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.column-l__title span {
+  margin-left: 40px;
+}
+
+/* line 507, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.column-l__text {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* line 510, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.column-l__text b {
+  font-weight: bold;
+}
+
+/* line 512, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.column-l__cell {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+/* line 515, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.column-l__description {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 70px;
+}
+
+/* line 519, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.column-l__description span {
+  font-weight: bold;
+  color: #fff;
+}
+
+/* line 522, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.column-l__text-decor {
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  width: 80%;
+}
+
+/* line 528, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.column-l__decor {
+  width: 15%;
+  position: absolute;
+  right: 120px;
+  bottom: 40px;
+}
+
+/* line 535, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.cell__step-1 {
+  width: 350px;
+  margin-left: -20px;
+}
+
+/* line 538, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.cell__step-2 {
+  width: 350px;
+  margin-left: -90px;
+}
+
+/* line 543, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.column-r__phone {
+  z-index: 2;
+}
+
+/* line 545, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.column-r__play-bg {
+  position: absolute;
+  bottom: -100px;
+  left: -130px;
+  width: 80%;
+  z-index: 1;
+}
+
+/* line 551, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.column-r__play {
+  position: absolute;
+  bottom: 3%;
+  left: 0;
+  width: 35%;
+  cursor: pointer;
+  transition: 1s;
+  z-index: 3;
+}
+
+/* line 559, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.column-r__play:hover {
+  transform: scale(1.2);
 }
 
 /*# sourceMappingURL=style.css.map */

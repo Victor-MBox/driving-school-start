@@ -476,20 +476,85 @@ img
 /* Пятая секция */
 
 .fifth-section
-    background-color: $color-bg
+    background-image: url(../img/fifth_section-bg.jpg)
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    min-height: 1000px
     &__container
         display: flex
     &__column-l
+        position: relative
+        width: 50%
+        display: flex
+        flex-wrap: wrap
+        align-content: center
     &__column-r
+        position: relative
+        width: 50%
+        display: flex
+        flex-wrap: wrap
+        align-content: center
+        padding-left: 50px
 
 .column-l
     &__title
+        font-size: 46px
+        font-weight: bolt
+        margin-bottom: 60px
+        span
+            margin-left: 40px
     &__text
+        font-size: 18px
+        margin-bottom: 40px
+        b
+            font-weight: bold
+    &__cell
+        display: flex
+        margin-bottom: 50px
     &__description
+        font-size: 15px
+        text-transform: uppercase
+        margin-bottom: 70px
+        span
+            font-weight: bold
+            color: #fff
     &__text-decor
+        font-size: 14px
+        text-align: center
+        text-transform: uppercase
+        display: block
+        width: 80%
     &__decor
+        width: 15%
+        position: absolute
+        right: 120px
+        bottom: 40px
+
+.cell
+    &__step-1
+        width: 350px
+        margin-left: -20px
+    &__step-2
+        width: 350px
+        margin-left: -90px
 
 .column-r
     &__phone
+        z-index: 2
     &__play-bg
+        position: absolute
+        bottom: -100px
+        left: -130px
+        width: 80%
+        z-index: 1
     &__play
+        position: absolute
+        bottom: 3%
+        left: 0
+        width: 35%
+        cursor: pointer
+        transition: 1s
+        z-index: 3
+        &:hover
+            transform: scale(1.2)
