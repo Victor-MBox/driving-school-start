@@ -778,7 +778,7 @@ img {
 }
 
 /* line 167, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
-.btn {
+.btn-main {
   font-size: 16px;
   color: #fff;
   background: linear-gradient(to left, #7300CE, #7300CE, #EE164D, #EE164D);
@@ -792,7 +792,7 @@ img {
 }
 
 /* line 178, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
-.btn:hover {
+.btn-main:hover {
   background-position: right;
   color: #fff;
 }
@@ -1665,5 +1665,26 @@ img {
   margin-bottom: 20px;
   color: #2B3262;
 }
+
+/* Девятая секция */
+/* line 744, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.faq {
+  background: #010012;
+  text-align: center;
+  padding-top: 70px;
+}
+
+/* line 748, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.faq__title {
+  font-size: 42px;
+  margin-bottom: 40px;
+}
+
+/* line 751, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.faq__title span {
+  color: #ED3E3F;
+}
+
+/* accordion */
 
 /*# sourceMappingURL=style.css.map */

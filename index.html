@@ -51,7 +51,7 @@
                     <li class="list-adress__main-list"> <img src="icons/triangle-right.svg" alt=""> ул. Кондратюка, 15
                         (автодром на Левом берегу).</li>
                 </ul>
-                <button class="left-wrapper__btn btn">УЗНАТЬ СТОИМОСТЬ ОБУЧЕНИЯ</button>
+                <button class="left-wrapper__btn btn-main">УЗНАТЬ СТОИМОСТЬ ОБУЧЕНИЯ</button>
 
             </div>
 
@@ -193,7 +193,7 @@
                                         </div>
                                     </div>
                                     <div class="infobox__column-r">
-                                        <button class="infobox__btn btn">ПОДРОБНЕЕ</button>
+                                        <button class="infobox__btn btn-main">ПОДРОБНЕЕ</button>
                                     </div>
                                 </div>
                                 <div class="tab-container__title-list">ЧТО ВХОДИТ В СТОИМОСТЬ ОБУЧЕНИЯ:</div>
@@ -235,7 +235,7 @@
                                         </div>
                                     </div>
                                     <div class="infobox__column-r">
-                                        <button class="infobox__btn btn">ПОДРОБНЕЕ</button>
+                                        <button class="infobox__btn btn-main">ПОДРОБНЕЕ</button>
                                     </div>
                                 </div>
                                 <div class="tab-container-r__title-list">ЧТО ВХОДИТ В СТОИМОСТЬ ОБУЧЕНИЯ:</div>
@@ -264,7 +264,7 @@
 
             <div class="fourth-section__footer">
                 <div class="fourth-section__column-l">
-                    <button class="fourth-section__btn btn">ЗАПИСАТЬСЯ</button>
+                    <button class="fourth-section__btn btn-main">ЗАПИСАТЬСЯ</button>
                 </div>
                 <div class="fourth-section__column-r">
                     <p>или позвоните по телефону:</p>
@@ -335,11 +335,11 @@
                     ГИБДД и жителями<br>
                     Омска и области
                 </div>
-                <button class="document__btn btn">УЗНАТЬ ПОДРОБНЕЕ</button>
+                <button class="document__btn btn-main">УЗНАТЬ ПОДРОБНЕЕ</button>
             </div>
             <div class="document__column">
-                <button class="slick-item__btn slick-btn" type="button" id="slickSliderPref"><img src="/icons/icon-left.svg"
-                        alt=""></button>
+                <button class="slick-item__btn slick-btn" type="button" id="slickSliderPref"><img
+                        src="/icons/icon-left.svg" alt=""></button>
 
                 <div class="slick-item">
                     <div class="slick-item__img"><a href="/img/slick-img-1.jpeg" target="_blank"><img
@@ -352,8 +352,8 @@
                                 src="/img/slick-img-4.jpg" alt=""></a></div>
 
                 </div>
-                <button class="slick-item__btn slick-btn" type="button" id="slickSliderNext"><img src="/icons/icon-right.svg"
-                        alt=""></button>
+                <button class="slick-item__btn slick-btn" type="button" id="slickSliderNext"><img
+                        src="/icons/icon-right.svg" alt=""></button>
 
                 <img class="document__podium" src="/img/document__podium.jpg" alt="">
             </div>
@@ -406,14 +406,78 @@
             <div class="reviews__decor-l"></div>
             <div class="reviews__decor-r"></div>
             <div class="reviews__button">
-                <button class="reviews__btn slick-btn" type="button" id="slickReviewsPrev"><img src="/icons/icon-left.svg"
-                        alt=""></button>
-                <button class="reviews__btn slick-btn" type="button" id="slickReviewsNext"><img src="/icons/icon-right.svg"
-                        alt=""></button>
+                <button class="reviews__btn slick-btn" type="button" id="slickReviewsPrev"><img
+                        src="/icons/icon-left.svg" alt=""></button>
+                <button class="reviews__btn slick-btn" type="button" id="slickReviewsNext"><img
+                        src="/icons/icon-right.svg" alt=""></button>
             </div>
         </div>
     </section>
 
+
+    <!-- Девятая секция -->
+    <section class="faq">
+        <div class="container faq__container">
+            <div class="faq__title title"><span>Ответы</span> на часто<br>
+                задаваемые <span>вопросы</span></div>
+            <!-- accordion -->
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                                data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Сворачиваемый групповой элемент #1
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            Некоторый заполнитель для первой панели аккордеона. Эта панель отображается по умолчанию
+                            благодаря классу <code>.show</code>.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                Сворачиваемый групповой элемент #2
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Некоторый заполнитель для второй панели аккордеона. По умолчанию эта панель скрыта.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                aria-controls="collapseThree">
+                                Сворачиваемый групповой элемент #3
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            И, наконец, заполнитель для третьей и последней панели аккордеона. По умолчанию эта панель
+                            скрыта.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
 
 
 

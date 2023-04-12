@@ -58,5 +58,7 @@ $('#slickReviewsNext').on('click', function() {
 });
 
 
+/* ***************** */
+/* accordion */ 
 
 });
