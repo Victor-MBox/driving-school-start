@@ -32,6 +32,7 @@ $color-bg: #010012
     font-weight: normal
     font-style: normal
 
+
 html
     scroll-behavior: smooth
     font-family: 'Montserrat'
@@ -275,6 +276,7 @@ img
     font-size: 26px
     color: #fff
     line-height: 1.2
+
     span
         color: $color-red
 
@@ -618,7 +620,7 @@ img
     background-position: center center
     background-repeat: no-repeat
     background-size: contain
-
+    padding-bottom: 120px
     &__container
         display: flex
         flex-wrap: wrap
@@ -633,11 +635,10 @@ img
             justify-content: center
     &__title
         font-size: 40px
-        margin-bottom: 42px
+        margin-bottom: 54px
         line-height: 1.2
         span
             color: $color-red
-    &__btn
     &__podium
         margin-top: -60px
         width: 86%
@@ -645,6 +646,9 @@ img
 /* Slick Slider */
 
 .slick-item
+    .slick-list
+        width: 320px
+        height: auto
     &__img
         border: solid 2px
         border-color: #2b32625e
@@ -655,10 +659,82 @@ img
         cursor: pointer
         margin-left: 12px
     &__btn
-        background: none
-        border: none
         margin: 0 5px
 
-.slick-slider .slick-track, .slick-slider .slick-list
-    width: 320px
-    height: auto
+.slick-btn
+    background: none
+    border: none
+
+/* Восьмая секция */
+.reviews
+    background-color: $color-bg
+    height: 550px
+    position: relative
+    overflow-x: hidden
+    &__container
+        text-align: center
+        position: relative
+        
+    &__title
+        font-size: 42px
+        margin-bottom: 40px
+        span
+            color: $color-red
+            text-decoration: underline
+    &__slider
+        display: flex
+        justify-content: center
+        .slick-list
+            width: auto
+            height: auto
+    &__decor-l
+        position: absolute
+        left: 0
+        top: 100px
+        height: 400px
+        width: 300px
+        background: linear-gradient(to right, #010012 15%, rgba(1, 0, 18, 0.5), rgba(1, 0, 18, 0.01))
+    &__decor-r
+        position: absolute
+        right: 0
+        top: 100px
+        height: 400px
+        width: 300px
+        background: linear-gradient(to left, #010012 15%, rgba(1, 0, 18, 0.5), rgba(1, 0, 18, 0.01))
+    &__button
+        position: relative
+        z-index: 5
+        display: flex
+        flex-wrap: nowrap
+        justify-content: space-around
+        margin: -215px -70px 0 -70px
+
+.slick-initialized .slick-slide
+    display: flex
+
+.slider
+    &__item
+        justify-content: center
+        align-items: center
+        height: 350px
+        align-content: center
+        flex-wrap: wrap
+        padding: 130px
+        margin: 0 20px
+        background-image: url(../img/reviews__bg.jpg)
+        background-position: center center
+        background-repeat: no-repeat
+        background-size: contain
+    &__title
+        font-weight: 700
+        font-size: 14px
+        line-height: 1.2
+        color: $color-blue
+        margin-bottom: 20px
+
+    &__text
+        font-weight: 500
+        font-size: 14px
+        line-height: 1.2
+        margin-bottom: 20px
+        color: $color-blue
