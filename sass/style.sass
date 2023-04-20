@@ -32,7 +32,6 @@ $color-bg: #010012
     font-weight: normal
     font-style: normal
 
-
 html
     scroll-behavior: smooth
     font-family: 'Montserrat'
@@ -56,10 +55,7 @@ img
 .main-section
     position: relative
     height: 840px
-    background-image: url(../img/main-section-bg.jpeg)
-    background-position: center center
-    background-repeat: no-repeat
-    background-size: cover
+    background: url(../img/main-section-bg.jpeg) center center/cover no-repeat
     padding-top: 25px
     overflow: hidden
     &__header
@@ -196,19 +192,13 @@ img
     z-index: 2
     &__container
         display: flex
-        background-image: url(../img/blok2_1bg.png)
-        background-position: center center
-        background-repeat: no-repeat
-        background-size: cover
+        background: url(../img/blok2_1bg.png)  center center/cover no-repeat
     &__column
         display: flex
         flex-wrap: wrap
         width: 100%
         height: 280px
-        background-image: url(../img/blok2_bg1.png)
-        background-position: center center
-        background-repeat: no-repeat
-        background-size: cover
+        background: url(../img/blok2_bg1.png) center center/cover no-repeat
         text-align: center
         justify-content: center
         align-content: center
@@ -226,11 +216,7 @@ img
     margin: -200px 0 auto
     position: relative
 
-    background-image: url(../img/third-section-bg.jpg)
-    background-position: top center
-    background-repeat: no-repeat
-    background-size: cover
-    background-color: $color-bg
+    background: $color-bg url(../img/third-section-bg.jpg) top center/cover no-repeat
     &__container
         padding-top: 350px
         display: flex
@@ -286,9 +272,6 @@ img
     justify-content: flex-end
     align-content: flex-start
     &__box
-        display: flex
-        flex-wrap: wrap
-        align-content: center
         color: #fff
         font-size: 20px
         width: 274px
@@ -317,12 +300,8 @@ img
         &_white
             color: #fff
 
-.fourth-section
-    background-color: $color-bg
-    background-image: url(../img/fourth-section-bg.jpg)
-    background-position: center center
-    background-repeat: no-repeat
-    background-size: cover
+.fourth-section 
+    background: $color-bg url(../img/fourth-section-bg.jpg)center center/cover no-repeat
     padding-bottom: 100px
     &__text
         text-align: center
@@ -377,10 +356,7 @@ img
     width: 1050px
     margin: 0 auto
     height: 500px
-    background-image: url(../img/meh01.webp)
-    background-position: bottom center
-    background-repeat: no-repeat
-    background-size: contain
+    background: url(../img/meh01.webp) bottom center/contain no-repeat
     padding: 30px
     display: flex
     &__column-l
@@ -416,10 +392,7 @@ img
     width: 1050px
     margin: 0 auto
     height: 500px
-    background-image: url(../img/avto-bg.png)
-    background-position: bottom center
-    background-repeat: no-repeat
-    background-size: contain
+    background: url(../img/avto-bg.png) bottom center/contain no-repeat
     padding: 30px
     display: flex
     &__column-l
@@ -454,10 +427,7 @@ img
 .infobox
     display: flex
     padding: 46px 80px 46px 20px
-    background-image: url(../img/glass.png)
-    background-position: -30px
-    background-repeat: no-repeat
-    background-size: cover
+    background: url(../img/glass.png) -30px /cover no-repeat
     &__column-l
         width: 50%
         display: flex
@@ -481,10 +451,7 @@ img
 /* Пятая секция */
 
 .fifth-section
-    background-image: url(../img/fifth_section-bg.jpg)
-    background-position: center
-    background-repeat: no-repeat
-    background-size: cover
+    background: url(../img/fifth_section-bg.jpg) center/cover no-repeat
     min-height: 920px
     &__container
         display: flex
@@ -554,10 +521,7 @@ img
         bottom: -45px
         width: 300px
         height: 300px
-        background-image: url(../img/column-r__play-bg.png)
-        background-position: center
-        background-repeat: no-repeat
-        background-size: cover
+        background: url(../img/column-r__play-bg.png) center/cover no-repeat
         display: flex
         align-items: center
         justify-content: center
@@ -572,12 +536,8 @@ img
 
 /* Шестая секция */
 .carpark
-    background-image: url(../img/carpark-bg.jpg)
-    background-position: top center
-    background-repeat: no-repeat
-    background-size: contain
+    background: $color-bg url(../img/carpark-bg.jpg) top center/contain no-repeat
     height: 820px
-    background-color: $color-bg
     text-align: center
     padding-top: 180px
     &__container
@@ -616,10 +576,7 @@ img
 .document
     background-color: $color-bg
     margin: 0 auto
-    background-image: url(../img/document-bg.jpg)
-    background-position: center center
-    background-repeat: no-repeat
-    background-size: contain
+    background: url(../img/document-bg.jpg) center center/cover no-repeat
     padding-bottom: 120px
     &__container
         display: flex
@@ -664,17 +621,19 @@ img
 .slick-btn
     background: none
     border: none
+    position: relative
+    z-index: 5
 
 /* Восьмая секция */
 .reviews
-    background-color: $color-bg
+    background: $color-bg
     height: 550px
     position: relative
     overflow-x: hidden
     &__container
         text-align: center
         position: relative
-        
+
     &__title
         font-size: 42px
         margin-bottom: 40px
@@ -702,8 +661,6 @@ img
         width: 300px
         background: linear-gradient(to left, #010012 15%, rgba(1, 0, 18, 0.5), rgba(1, 0, 18, 0.01))
     &__button
-        position: relative
-        z-index: 5
         display: flex
         flex-wrap: nowrap
         justify-content: space-around
@@ -721,10 +678,7 @@ img
         flex-wrap: wrap
         padding: 130px
         margin: 0 20px
-        background-image: url(../img/reviews__bg.jpg)
-        background-position: center center
-        background-repeat: no-repeat
-        background-size: contain
+        background: url(../img/reviews__bg.jpg) center center/contain no-repeat
     &__title
         font-weight: 700
         font-size: 14px
@@ -739,12 +693,11 @@ img
         margin-bottom: 20px
         color: $color-blue
 
-
 /* Девятая секция */
 .faq
-    background: $color-bg
+    background: $color-bg url(../img/faq-bg2.jpg) top center/cover no-repeat
     text-align: center
-    padding-top: 70px 
+    padding: 70px 0
     &__title
         font-size: 42px
         margin-bottom: 40px
@@ -752,4 +705,32 @@ img
             color: $color-red
 
 /* accordion */
+.card
+    background-color: #ffffff00
+    &-body
+        font-size: 18px
+        color: #fff
+        font-weight: 700
+        line-height: 1.2
+        padding: 30px 30px 46px 30px
 
+.card-header
+    background-color: #D9D9D9 
+
+.accordion>.card>.card-header
+    border-radius: 90px
+    margin-bottom: 16px
+
+.btn:not(:disabled):not(.disabled)
+    cursor: pointer
+    font-weight: 700
+    font-size: 18px
+    line-height: 40px
+
+    color: #2B3262
+
+.mb-0
+    display: flex
+    justify-content: space-between
+    .btn:focus
+        box-shadow: none

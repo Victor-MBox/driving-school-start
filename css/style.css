@@ -580,7 +580,7 @@ table {
   font-style: normal;
 }
 
-/* line 36, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 35, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 html {
   scroll-behavior: smooth;
   font-family: 'Montserrat';
@@ -588,51 +588,48 @@ html {
   line-height: 1.4;
 }
 
-/* line 42, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 41, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 h1, h2, h3, h4, h5, h6, span {
   line-height: 1;
 }
 
-/* line 45, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 44, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 img {
   max-width: 100%;
   height: auto;
 }
 
 /* Первая секция */
-/* line 51, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 50, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .container {
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 10px;
 }
 
-/* line 56, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 55, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .main-section {
   position: relative;
   height: 840px;
-  background-image: url(../img/main-section-bg.jpeg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(../img/main-section-bg.jpeg) center center/cover no-repeat;
   padding-top: 25px;
   overflow: hidden;
 }
 
-/* line 66, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 62, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .main-section__header img {
   width: 90%;
   height: auto;
 }
 
-/* line 69, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 65, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .main-section__nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* line 73, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 69, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .main-section__content-container {
   display: flex;
   height: 100%;
@@ -640,19 +637,19 @@ img {
 }
 
 /* Навигация */
-/* line 80, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 76, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .nav-menu__list {
   display: flex;
 }
 
-/* line 82, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 78, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .nav-menu__list-item {
   margin-right: 35px;
   font-weight: bold;
   font-size: 14px;
 }
 
-/* line 86, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 82, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .nav-menu__list-item a {
   text-decoration: none;
   color: #fff;
@@ -660,7 +657,7 @@ img {
   cursor: pointer;
 }
 
-/* line 91, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 87, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .nav-menu__list-item a:after {
   content: "";
   display: block;
@@ -673,7 +670,7 @@ img {
   transition: width 0.5s;
 }
 
-/* line 101, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 97, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .nav-menu__list-item a:hover:after {
   content: "";
   width: 100%;
@@ -686,60 +683,60 @@ img {
   transition: width 0.5s;
 }
 
-/* line 113, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 109, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .btn-phone__list-item {
   margin-right: 25px;
   font-weight: bold;
   font-size: 18px;
 }
 
-/* line 117, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 113, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .btn-phone__list-item a {
   text-decoration: none;
   color: #fff;
 }
 
-/* line 120, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 116, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .btn-phone__list-item a:hover {
   color: #ED3E3F;
   transition: .3s linear;
 }
 
 /* Содержимое главного экрана */
-/* line 126, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 122, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .left-wrapper {
   width: 50%;
   margin-top: -80px;
 }
 
-/* line 129, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 125, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .left-wrapper__title {
   margin-bottom: 12px;
 }
 
-/* line 131, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 127, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .left-wrapper__description {
   margin-bottom: 50px;
 }
 
-/* line 133, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 129, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .left-wrapper__text-title {
   margin-bottom: 15px;
 }
 
-/* line 135, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 131, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .left-wrapper__list-adress {
   margin-bottom: 40px;
 }
 
-/* line 137, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 133, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .left-wrapper__list-adress img {
   width: 20px;
   height: 20px;
   margin-bottom: -5px;
 }
 
-/* line 142, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 138, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .title {
   font-weight: bold;
   font-size: 49px;
@@ -747,37 +744,37 @@ img {
   color: #fff;
 }
 
-/* line 148, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 144, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .description {
   font-size: 34px;
   color: #fff;
 }
 
-/* line 151, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 147, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .description span {
   color: #ED3E3F;
   text-decoration: underline;
 }
 
-/* line 155, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 151, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .text-title {
   color: #fff;
   font-weight: 500;
   font-size: 22px;
 }
 
-/* line 160, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 156, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .list-adress {
   color: #fff;
   font-size: 16px;
 }
 
-/* line 163, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 159, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .list-adress__main-list:not(:last-child) {
   padding-bottom: 10px;
 }
 
-/* line 167, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 163, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .btn-main {
   font-size: 16px;
   color: #fff;
@@ -791,13 +788,13 @@ img {
   cursor: pointer;
 }
 
-/* line 178, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 174, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .btn-main:hover {
   background-position: right;
   color: #fff;
 }
 
-/* line 183, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 179, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .right-wrapper img {
   position: absolute;
   bottom: 0;
@@ -806,7 +803,7 @@ img {
   height: auto;
 }
 
-/* line 190, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 186, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .second-section {
   max-width: 1140px;
   margin-top: -80px;
@@ -816,31 +813,25 @@ img {
   z-index: 2;
 }
 
-/* line 197, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 193, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .second-section__container {
   display: flex;
-  background-image: url(../img/blok2_1bg.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(../img/blok2_1bg.png) center center/cover no-repeat;
 }
 
-/* line 203, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 196, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .second-section__column {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   height: 280px;
-  background-image: url(../img/blok2_bg1.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(../img/blok2_bg1.png) center center/cover no-repeat;
   text-align: center;
   justify-content: center;
   align-content: center;
 }
 
-/* line 215, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 205, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .second-section__title {
   width: 100%;
   font-size: 14px;
@@ -848,59 +839,55 @@ img {
   color: #fff;
 }
 
-/* line 220, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 210, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .second-section__title span {
   color: #ED3E3F;
 }
 
 /* Третья секция */
-/* line 225, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 215, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .third-section {
   margin: -200px 0 auto;
   position: relative;
-  background-image: url(../img/third-section-bg.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #010012;
+  background: #010012 url(../img/third-section-bg.jpg) top center/cover no-repeat;
 }
 
-/* line 234, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 220, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .third-section__container {
   padding-top: 350px;
   display: flex;
   padding-bottom: 70px;
 }
 
-/* line 238, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 224, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .third-section__column {
   width: 50%;
   padding-bottom: 120px;
 }
 
-/* line 241, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 227, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .third-section__title {
   font-size: 44px;
   margin-bottom: 70px;
 }
 
-/* line 244, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 230, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .third-section__title span {
   color: #ED3E3F;
   text-decoration: underline;
 }
 
-/* line 247, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 233, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .third-section__text {
   margin-bottom: 45px;
 }
 
-/* line 250, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 236, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .decor {
   position: relative;
 }
 
-/* line 252, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 238, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .decor__item {
   font-size: 350px;
   color: #FFCDCD69;
@@ -909,7 +896,7 @@ img {
   font-weight: 400;
 }
 
-/* line 258, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 244, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .decor__second-item {
   font-size: 20px;
   color: #fff;
@@ -920,12 +907,12 @@ img {
   z-index: 1;
 }
 
-/* line 266, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 252, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .decor__second-item span {
   font-size: 40px;
 }
 
-/* line 268, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 254, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .decor__car {
   position: absolute;
   width: 850px;
@@ -934,19 +921,19 @@ img {
   z-index: 2;
 }
 
-/* line 275, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 261, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .text {
   font-size: 26px;
   color: #fff;
   line-height: 1.2;
 }
 
-/* line 280, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 266, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .text span {
   color: #ED3E3F;
 }
 
-/* line 283, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 269, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .column-info {
   display: flex;
   flex-wrap: wrap;
@@ -954,11 +941,8 @@ img {
   align-content: flex-start;
 }
 
-/* line 288, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 274, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .column-info__box {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
   color: #fff;
   font-size: 20px;
   width: 274px;
@@ -968,22 +952,22 @@ img {
   padding: 15px;
 }
 
-/* line 299, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 282, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .column-info__box_black {
   background: #292929;
 }
 
-/* line 301, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 284, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .column-info__box_blue {
   background: #2B3262;
 }
 
-/* line 303, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 286, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .column-info__box_red {
   background: #ED3E3F;
 }
 
-/* line 305, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 288, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .column-info__title {
   font-size: 14px;
   line-height: 1.2;
@@ -992,59 +976,55 @@ img {
   margin-bottom: 22px;
 }
 
-/* line 311, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 294, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .column-info__title_white {
   color: #fff;
 }
 
-/* line 313, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 296, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .column-info__text {
   font-size: 14px;
   font-weight: normal;
   color: #292929;
 }
 
-/* line 317, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 300, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .column-info__text_white {
   color: #fff;
 }
 
-/* line 320, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 303, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .fourth-section {
-  background-color: #010012;
-  background-image: url(../img/fourth-section-bg.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #010012 url(../img/fourth-section-bg.jpg) center center/cover no-repeat;
   padding-bottom: 100px;
 }
 
-/* line 327, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 306, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .fourth-section__text {
   text-align: center;
   padding-bottom: 50px;
   font-weight: bold;
 }
 
-/* line 331, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 310, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .fourth-section__tab {
   margin-bottom: 70px;
 }
 
-/* line 333, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 312, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .fourth-section__footer {
   display: flex;
   justify-content: center;
 }
 
-/* line 336, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 315, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .fourth-section__column-l {
   width: 50%;
   text-align: right;
   margin-right: 50px;
 }
 
-/* line 340, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 319, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .fourth-section__column-r {
   width: 50%;
   display: flex;
@@ -1052,7 +1032,7 @@ img {
   flex-wrap: wrap;
 }
 
-/* line 345, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 324, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .fourth-section__column-r p {
   display: inline-block;
   width: 100%;
@@ -1061,21 +1041,21 @@ img {
   line-height: 1.2;
 }
 
-/* line 351, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 330, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .fourth-section__column-r a {
   color: #fff;
   font-size: 26px;
   text-decoration: underline;
 }
 
-/* line 355, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 334, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .fourth-section__column-r a:hover {
   color: #ED3E3F;
   transition: .3s linear;
 }
 
 /* Таб бутстрап */
-/* line 360, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 339, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .nav-pills .nav-link {
   border-radius: 90px;
   padding: 16px 36px;
@@ -1088,37 +1068,34 @@ img {
   margin: 0px 30px 50px 30px;
 }
 
-/* line 371, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 350, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #2B3262;
   border-color: #fff;
 }
 
-/* line 376, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 355, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .tab-container {
   width: 1050px;
   margin: 0 auto;
   height: 500px;
-  background-image: url(../img/meh01.webp);
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  background: url(../img/meh01.webp) bottom center/contain no-repeat;
   padding: 30px;
   display: flex;
 }
 
-/* line 386, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 362, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .tab-container__column-l {
   width: 50%;
 }
 
-/* line 388, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 364, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .tab-container__column-r {
   width: 50%;
 }
 
-/* line 390, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 366, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .tab-container__title {
   color: #fff;
   font-size: 22px;
@@ -1126,12 +1103,12 @@ img {
   margin-bottom: 10px;
 }
 
-/* line 395, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 371, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .tab-container__title span {
   font-weight: bold;
 }
 
-/* line 397, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 373, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .tab-container__title-list {
   color: #fff;
   font-weight: bold;
@@ -1140,7 +1117,7 @@ img {
   margin-bottom: 15px;
 }
 
-/* line 403, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 379, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .tab-container__text {
   color: #fff;
   font-weight: bold;
@@ -1148,42 +1125,39 @@ img {
   line-height: 1.2;
 }
 
-/* line 408, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 384, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .tab-container__list-box {
   color: #fff;
   font-size: 16px;
   line-height: 1.2;
 }
 
-/* line 412, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 388, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .tab-container__list-box li {
   margin-bottom: 10px;
 }
 
-/* line 415, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 391, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .tab-container-r {
   width: 1050px;
   margin: 0 auto;
   height: 500px;
-  background-image: url(../img/avto-bg.png);
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  background: url(../img/avto-bg.png) bottom center/contain no-repeat;
   padding: 30px;
   display: flex;
 }
 
-/* line 425, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 398, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .tab-container-r__column-l {
   width: 50%;
 }
 
-/* line 427, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 400, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .tab-container-r__column-r {
   width: 50%;
 }
 
-/* line 429, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 402, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .tab-container-r__title {
   color: #fff;
   font-size: 22px;
@@ -1191,12 +1165,12 @@ img {
   margin-bottom: 10px;
 }
 
-/* line 434, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 407, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .tab-container-r__title span {
   font-weight: bold;
 }
 
-/* line 436, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 409, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .tab-container-r__title-list {
   color: #fff;
   font-weight: bold;
@@ -1205,7 +1179,7 @@ img {
   margin-bottom: 15px;
 }
 
-/* line 442, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 415, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .tab-container-r__text {
   color: #fff;
   font-weight: bold;
@@ -1213,29 +1187,26 @@ img {
   line-height: 1.2;
 }
 
-/* line 447, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 420, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .tab-container-r__list-box {
   color: #fff;
   font-size: 16px;
   line-height: 1.2;
 }
 
-/* line 451, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 424, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .tab-container-r__list-box li {
   margin-bottom: 10px;
 }
 
-/* line 454, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 427, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .infobox {
   display: flex;
   padding: 46px 80px 46px 20px;
-  background-image: url(../img/glass.png);
-  background-position: -30px;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(../img/glass.png) -30px/cover no-repeat;
 }
 
-/* line 461, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 431, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .infobox__column-l {
   width: 50%;
   display: flex;
@@ -1244,7 +1215,7 @@ img {
   justify-content: center;
 }
 
-/* line 467, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 437, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .infobox__text {
   color: #fff;
   font-size: 13px;
@@ -1252,7 +1223,7 @@ img {
   line-height: 14px;
 }
 
-/* line 472, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 442, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .infobox__column-r {
   width: 50%;
   display: flex;
@@ -1261,28 +1232,25 @@ img {
   justify-content: center;
 }
 
-/* line 478, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 448, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .infobox__btn {
   padding: 12px 20px;
 }
 
 /* Пятая секция */
-/* line 483, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 453, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .fifth-section {
-  background-image: url(../img/fifth_section-bg.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(../img/fifth_section-bg.jpg) center/cover no-repeat;
   min-height: 920px;
 }
 
-/* line 489, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 456, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .fifth-section__container {
   display: flex;
   padding: 30px 0 50px 0;
 }
 
-/* line 492, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 459, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .fifth-section__column-l {
   position: relative;
   width: 50%;
@@ -1291,7 +1259,7 @@ img {
   align-content: center;
 }
 
-/* line 498, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 465, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .fifth-section__column-r {
   position: relative;
   width: 50%;
@@ -1301,49 +1269,49 @@ img {
   padding-left: 50px;
 }
 
-/* line 507, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 474, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .column-l__title {
   font-size: 46px;
   font-weight: bolt;
   margin-bottom: 60px;
 }
 
-/* line 511, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 478, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .column-l__title span {
   margin-left: 40px;
 }
 
-/* line 513, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 480, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .column-l__text {
   font-size: 18px;
   margin-bottom: 40px;
 }
 
-/* line 516, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 483, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .column-l__text b {
   font-weight: bold;
 }
 
-/* line 518, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 485, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .column-l__cell {
   display: flex;
   margin-bottom: 50px;
 }
 
-/* line 521, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 488, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .column-l__description {
   font-size: 15px;
   text-transform: uppercase;
   margin-bottom: 70px;
 }
 
-/* line 525, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 492, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .column-l__description span {
   font-weight: bold;
   color: #fff;
 }
 
-/* line 528, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 495, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .column-l__text-decor {
   font-size: 14px;
   text-align: center;
@@ -1352,7 +1320,7 @@ img {
   width: 80%;
 }
 
-/* line 534, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 501, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .column-l__decor {
   width: 15%;
   position: absolute;
@@ -1360,40 +1328,37 @@ img {
   bottom: 20px;
 }
 
-/* line 541, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 508, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .cell__step-1 {
   width: 350px;
   margin-left: -20px;
 }
 
-/* line 544, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 511, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .cell__step-2 {
   width: 350px;
   margin-left: -90px;
 }
 
-/* line 549, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 516, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .column-r__phone {
   z-index: 1;
 }
 
-/* line 551, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 518, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .column-r__play-bg {
   position: absolute;
   left: -65px;
   bottom: -45px;
   width: 300px;
   height: 300px;
-  background-image: url(../img/column-r__play-bg.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(../img/column-r__play-bg.png) center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* line 564, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 528, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .column-r__play {
   width: 47%;
   padding-left: 3px;
@@ -1402,95 +1367,88 @@ img {
   z-index: 3;
 }
 
-/* line 570, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 534, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .column-r__play:hover {
   transform: scale(1.1);
 }
 
 /* Шестая секция */
-/* line 574, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 538, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .carpark {
-  background-image: url(../img/carpark-bg.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  background: #010012 url(../img/carpark-bg.jpg) top center/contain no-repeat;
   height: 820px;
-  background-color: #010012;
   text-align: center;
   padding-top: 180px;
 }
 
-/* line 584, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 544, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .carpark__decor {
   width: 100px;
   margin: 0 0 30px -40px;
   /* косяк фоновой картинки */
 }
 
-/* line 588, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 548, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .carpark__text {
   font-size: 18px;
   margin: 0 0 60px -40px;
 }
 
-/* line 591, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 551, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .carpark__text span {
   color: #fff;
   font-weight: bold;
 }
 
-/* line 594, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 554, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .carpark__title {
   color: #ED3E3F;
   text-decoration: underline;
   margin: 0 0 5px -30px;
 }
 
-/* line 598, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 558, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .carpark__description {
   font-weight: bold;
   font-size: 36px;
   margin: 0 0 50px -30px;
 }
 
-/* line 602, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 562, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .carpark__column {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
 }
 
-/* line 608, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 568, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .column__avto {
   margin-right: 10px;
   width: 215px;
   border-radius: 150px;
 }
 
-/* line 612, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 572, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .column__avto:last-child {
   margin-right: 0;
 }
 
 /* Седьмая секция */
-/* line 616, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 576, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .document {
   background-color: #010012;
   margin: 0 auto;
-  background-image: url(../img/document-bg.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  background: url(../img/document-bg.jpg) center center/cover no-repeat;
   padding-bottom: 120px;
 }
 
-/* line 624, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 581, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .document__container {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 627, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 584, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .document__column {
   width: 50%;
   align-items: center;
@@ -1500,105 +1458,107 @@ img {
   justify-content: flex-start;
 }
 
-/* line 634, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 591, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .document__column:last-child {
   justify-content: center;
 }
 
-/* line 636, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 593, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .document__title {
   font-size: 40px;
   margin-bottom: 54px;
   line-height: 1.2;
 }
 
-/* line 640, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 597, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .document__title span {
   color: #ED3E3F;
 }
 
-/* line 642, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 599, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .document__podium {
   margin-top: -60px;
   width: 86%;
 }
 
 /* Slick Slider */
-/* line 649, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 606, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .slick-item .slick-list {
   width: 320px;
   height: auto;
 }
 
-/* line 652, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 609, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .slick-item__img {
   border: solid 2px;
   border-color: #2b32625e;
 }
 
-/* line 655, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 612, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .slick-item__icons-l {
   cursor: pointer;
   margin-right: 12px;
 }
 
-/* line 658, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 615, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .slick-item__icons-r {
   cursor: pointer;
   margin-left: 12px;
 }
 
-/* line 661, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 618, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .slick-item__btn {
   margin: 0 5px;
 }
 
-/* line 664, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 621, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .slick-btn {
   background: none;
   border: none;
+  position: relative;
+  z-index: 5;
 }
 
 /* Восьмая секция */
-/* line 669, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 628, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .reviews {
-  background-color: #010012;
+  background: #010012;
   height: 550px;
   position: relative;
   overflow-x: hidden;
 }
 
-/* line 674, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 633, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .reviews__container {
   text-align: center;
   position: relative;
 }
 
-/* line 678, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 637, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .reviews__title {
   font-size: 42px;
   margin-bottom: 40px;
 }
 
-/* line 681, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 640, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .reviews__title span {
   color: #ED3E3F;
   text-decoration: underline;
 }
 
-/* line 684, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 643, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .reviews__slider {
   display: flex;
   justify-content: center;
 }
 
-/* line 687, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 646, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .reviews__slider .slick-list {
   width: auto;
   height: auto;
 }
 
-/* line 690, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 649, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .reviews__decor-l {
   position: absolute;
   left: 0;
@@ -1608,7 +1568,7 @@ img {
   background: linear-gradient(to right, #010012 15%, rgba(1, 0, 18, 0.5), rgba(1, 0, 18, 0.01));
 }
 
-/* line 697, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 656, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .reviews__decor-r {
   position: absolute;
   right: 0;
@@ -1618,22 +1578,20 @@ img {
   background: linear-gradient(to left, #010012 15%, rgba(1, 0, 18, 0.5), rgba(1, 0, 18, 0.01));
 }
 
-/* line 704, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 663, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .reviews__button {
-  position: relative;
-  z-index: 5;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
   margin: -215px -70px 0 -70px;
 }
 
-/* line 712, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 669, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .slick-initialized .slick-slide {
   display: flex;
 }
 
-/* line 716, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 673, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .slider__item {
   justify-content: center;
   align-items: center;
@@ -1642,13 +1600,10 @@ img {
   flex-wrap: wrap;
   padding: 130px;
   margin: 0 20px;
-  background-image: url(../img/reviews__bg.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  background: url(../img/reviews__bg.jpg) center center/contain no-repeat;
 }
 
-/* line 728, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 682, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .slider__title {
   font-weight: 700;
   font-size: 14px;
@@ -1657,7 +1612,7 @@ img {
   margin-bottom: 20px;
 }
 
-/* line 735, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 689, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .slider__text {
   font-weight: 500;
   font-size: 14px;
@@ -1667,24 +1622,68 @@ img {
 }
 
 /* Девятая секция */
-/* line 744, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 697, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .faq {
-  background: #010012;
+  background: #010012 url(../img/faq-bg2.jpg) top center/cover no-repeat;
   text-align: center;
-  padding-top: 70px;
+  padding: 70px 0;
 }
 
-/* line 748, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 701, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .faq__title {
   font-size: 42px;
   margin-bottom: 40px;
 }
 
-/* line 751, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+/* line 704, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
 .faq__title span {
   color: #ED3E3F;
 }
 
 /* accordion */
+/* line 708, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.card {
+  background-color: #ffffff00;
+}
+
+/* line 710, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.card-body {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 30px 30px 46px 30px;
+}
+
+/* line 717, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.card-header {
+  background-color: #D9D9D9;
+}
+
+/* line 720, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.accordion > .card > .card-header {
+  border-radius: 90px;
+  margin-bottom: 16px;
+}
+
+/* line 724, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+  color: #2B3262;
+}
+
+/* line 732, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.mb-0 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 735, ../../../../../Users/victor.matsakov/Yandex.Disk.localized/Driving School Start/src/sass/style.sass */
+.mb-0 .btn:focus {
+  box-shadow: none;
+}
 
 /*# sourceMappingURL=style.css.map */

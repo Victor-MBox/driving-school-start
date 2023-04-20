@@ -26,6 +26,9 @@ $('.reviews__slider').slick({
   centerPadding: '22%',
   slidesToShow: 1,
   arrows: false,
+  autoplay: true,
+  autoplaySpeed: 5000,
+  pauseOnHover: true,
   responsive: [
     {
       breakpoint: 768,
@@ -58,7 +61,5 @@ $('#slickReviewsNext').on('click', function() {
 });
 
 
-/* ***************** */
-/* accordion */ 
 
 });
