@@ -157,7 +157,6 @@ img
     color: #fff
     font-size: 16px
     &__main-list:not(:last-child)
-
         padding-bottom: 10px
 
 .btn-main
@@ -192,7 +191,7 @@ img
     z-index: 2
     &__container
         display: flex
-        background: url(../img/blok2_1bg.png)  center center/cover no-repeat
+        background: url(../img/blok2_1bg.png) center center/cover no-repeat
     &__column
         display: flex
         flex-wrap: wrap
@@ -300,7 +299,7 @@ img
         &_white
             color: #fff
 
-.fourth-section 
+.fourth-section
     background: $color-bg url(../img/fourth-section-bg.jpg)center center/cover no-repeat
     padding-bottom: 100px
     &__text
@@ -715,7 +714,7 @@ img
         padding: 30px 30px 46px 30px
 
 .card-header
-    background-color: #D9D9D9 
+    background-color: #D9D9D9
 
 .accordion>.card>.card-header
     border-radius: 90px
@@ -734,3 +733,188 @@ img
     justify-content: space-between
     .btn:focus
         box-shadow: none
+
+/* Десятая секция */
+
+.feedback
+    background: $color-bg
+    color: #fff
+    overflow: hidden
+    &__container
+        display: flex
+        flex-wrap: nowrap
+        padding-top: 220px
+        position: relative
+    &__column
+        position: relative
+        width: 50%
+        z-index: 2
+    &__key
+        position: absolute
+        top: -40%
+        left: -20%
+        width: 50%
+    &__circle
+        position: absolute
+
+        top: -40%
+        right: -23%
+        width: 75%
+    &__boy
+        position: absolute
+        bottom: 0
+        left: -13%
+        max-width: 150%
+        z-index: 1
+    &__item
+        background: url(../img/form_footer.png) center center/contain no-repeat
+        padding: 50px 130px
+        width: 600px
+        text-align: center
+    &__title-fb
+        margin-bottom: 28px
+    &__text-fb
+        margin-bottom: 28px
+    &__form
+        margin-bottom: 28px
+        position: relative
+        z-index: 99
+    &__text
+        font-weight: 300
+        font-size: 12px
+        line-height: 16px
+    &__car
+        position: absolute
+        bottom: -20%
+        width: 200%
+        left: 7%
+        opacity: .1
+        z-index: 0
+
+.title-fb
+    font-weight: 700
+    font-size: 22px
+    line-height: 32px
+    text-transform: uppercase
+    span
+        color: $color-red
+        text-decoration: underline
+.text-fb
+    font-weight: 500
+    font-size: 14px
+    line-height: 20px
+
+.feedback
+    &__form
+        input, button
+            outline: none
+            border: 1px solid #DCDEE6
+            border-radius: 90px
+        input
+            margin-bottom: 16px
+            width: 100%
+            height: 56px
+            background: #fff
+            padding-left: 25px
+            color: #202020
+            font-size: 14px
+            line-height: 24px
+            transition: .3s
+            &::-webkit-input-placeholder
+                color: #A3ACB2
+            &:hover
+                border: 1px solid $color-red
+            &:active
+                border: 1px solid $color-red
+            &:focus
+                border: 1px solid $color-red
+        button
+            width: 100%
+            font-size: 16px
+            color: #fff
+            background: linear-gradient(to left, #7300CE, #7300CE, #EE164D, #EE164D)
+            text-decoration: none
+            padding: 20px 30px
+            border-radius: 90px
+            background-size: 200%
+            transition: .5s
+            border: solid 2px #ffffff
+            cursor: pointer
+            &:hover
+                background-position: right
+                color: #fff
+
+/* Footer */
+
+.footer
+    background: $color-bg
+    padding: 60px 0 30px 0
+    color: #fff
+    &__container
+        display: flex
+        flex-wrap: nowrap
+        justify-content: space-between
+    &__column-1
+        width: 40%
+        padding-right: 7%
+        img
+            margin-bottom: 24px
+    &__column-2
+        width: 25%
+    &__column-3
+        width: 35%
+    &__text
+        font-size: 16px
+        line-height: 1.4
+        font-weight: 400
+        margin-bottom: 24px
+    &__title
+        font-size: 16px
+        line-height: 1.2
+        font-weight: bold
+        margin-bottom: 24px
+    &__link
+
+    &__link-item
+        a
+            color: #fff
+            font-size: 14px
+            line-height: 2
+            font-weight: 500
+            transition: .3s
+            text-decoration: underline
+            &:hover
+                color: $color-red
+    &__list-adress
+        font-size: 14px
+        line-height: 1.8
+        font-weight: 500
+        margin-bottom: 24px
+
+.network
+    display: flex
+    flex-wrap: nowrap
+    &__vk
+        margin-right: 8px
+    &__tg
+        margin-right: 8px
+    &__wh
+        margin-right: 8px
+
+.license
+    font-size: 12px
+    line-height: 1.4
+    font-weight: 300
+    margin-bottom: 18px
+
+.politica
+    margin-bottom: 24px
+    a
+        color: #efefef
+        font-size: 12px
+        line-height: 1.4
+        font-weight: 300
+        transition: .3s
+        text-decoration: underline
+        &:hover
+            color: $color-red
